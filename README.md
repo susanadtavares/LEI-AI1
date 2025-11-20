@@ -46,3 +46,16 @@ Repository for the Internet Applications I Curricular Unit
 - Lists and Keys
 - Forms
 - Composition and Inheritance
+
+
+## 💻 **Tech Stack**
+HTML5, CSS3, JavaScript and React
+
+
+## ⚠️ **Disclaimer**
+
+This is a university work and may contain suboptimal practices or even errors.
+
+If you have any questions or suggestions, feel free to ask.
+
+This repository is public and it is intended for archival and educational purposes only.
