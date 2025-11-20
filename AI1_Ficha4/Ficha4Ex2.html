@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes de Regex</title>
+</head>
+<body>
+    <h1>Testes de Regex</h1>
+    <form>
+        <label for="textOnly">Apenas texto:</label>
+        <input type="text" id="textOnly" name="textOnly" placeholder="Apenas Texto" pattern="[A-Za-z\s]+" title="Apenas letras são permitidas" autocomplete="on" required>
+        <br><br>
+
+        <label for="numberOnly">Apenas números:</label>
+        <input type="text" id="numberOnly" name="numberOnly" placeholder="Apenas números" pattern="\d+" title="Apenas números são permitidos" autocomplete="on" required>
+        <br><br>
+
+        <label for="lowercaseOnly">Apenas “a” a “z”:</label>
+        <input type="text" id="lowercaseOnly" name="lowercaseOnly" placeholder="Apenas Minúsculas" pattern="[a-z]+" title="Apenas letras minúsculas são permitidas" autocomplete="on" required>
+        <br><br>
+
+        <label for="ipvOnly">IPV:</label>
+        <input type="text" id="ipvOnly" name="ipvOnly" placeholder="Apenas ipv" pattern="[ipv]+" title="Apenas as letras i, p e v são permitidas" autocomplete="on" required>
+        <br><br>
+
+        <label for="noIpv">Sem IPV:</label>
+        <input type="text" id="noIpv" name="noIpv" placeholder="Sem as letras i, p, v" pattern="[^ipv]+" title="As letras i, p e v não são permitidas" autocomplete="on" required>
+        <br><br>
+
+        <label for="always15">Sempre 15:</label>
+        <input type="text" id="always15" name="always15" placeholder="15 caracteres Maiúsculos" pattern="[A-Z]{15}" title="Apenas letras maiúsculas com exatamente 15 caracteres são permitidas" autocomplete="on" required>
+        <br><br>
+
+        <label for="phoneNumber">Número de telemóvel:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Telemóvel" pattern="9[1236]-\d{3}-\d{3}|9[1236] \d{3} \d{3}" title="Formato válido: xxx-xxx-xxx ou xxx xxx xxx, onde o primeiro dígito é 9 e o segundo dígito é 1, 2, 3 ou 6" autocomplete="on" required>
+        <br><br>
+
+        <button type="sumbit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>    
+</body>    
+</html>

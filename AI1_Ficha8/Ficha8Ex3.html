@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div com Cores</title>
+    <!-- Inclui o arquivo de JavaScript -->
+    <script src="pintacores.js" defer></script>
+    <style>
+        /* Estilos básicos */
+        .label {
+            padding: 10px;
+            margin: 5px;
+            display: inline-block;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        /* Estilo da div que muda de cor */
+        #corDiv {
+            width: 200px;
+            height: 100px;
+            border: 2px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Labels com cores -->
+    <div id="labelsContainer">
+        <span class="label" data-color="#f49e42">#f49e42</span>
+        <span class="label" data-color="#7e8477">#7e8477</span>
+        <span class="label" data-color="#47a4ef">#47a4ef</span>
+        <span class="label" data-color="#ad0c39">#ad0c39</span>
+    </div>
+    
+    <!-- Div que terá o fundo alterado -->
+    <div id="corDiv"></div>
+</body>
+</html>

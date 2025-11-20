@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <!-- Inclui o arquivo de JavaScript -->
+    <script src="adivinha_num6.js" defer></script>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #fff;
+            width: 300px;
+            border-radius: 4px;
+        }
+        input[type="number"] {
+            padding: 8px;
+            font-size: 16px;
+            margin-right: 10px;
+            width: 150px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 8px 16px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Adivinhe o número de 0 a 100</h3>
+        <input type="number" id="numeroInput" placeholder="" min="0" max="100">
+        <button id="verificarBtn">Tentar!</button>
+    </div>
+</body>
+</html>

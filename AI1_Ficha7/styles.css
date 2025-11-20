@@ -1,0 +1,39 @@
+body {
+    background-color: #F4F4F7;
+    font-family: "Verdana", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.image-column {
+    background-image: url('https://thegreatdiscontent.com/wp-content/uploads/2021/11/sarah-parmenter-craig-williams-xl.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1; 
+    max-width: 33.33%;
+}
+
+.content-column {
+    flex: 2; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    margin: 0 0 20px 0;
+}
+
+p {
+    font-size: 1.5em;
+    color: #333;
+}

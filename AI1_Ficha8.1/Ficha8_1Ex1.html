@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Desenvolvimento Web</title>
+    <link rel="stylesheet" href="perguntas.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Quiz de Desenvolvimento Web</h1>
+        <p id="feedback" class="hidden"></p>
+        <div class="question" data-correct="1">
+            <p>1. Qual linguagem é usada para criar páginas da web?</p>
+            <button class="answer">Python</button>
+            <button class="answer">HTML</button>
+            <button class="answer">C++</button>
+            <button class="answer">Java</button>
+        </div>
+        <div class="question" data-correct="0">
+            <p>2. O que significa CSS?</p>
+            <button class="answer">Cascading Style Sheets</button>
+            <button class="answer">Central Style Scripts</button>
+            <button class="answer">Compact Style Syntax</button>
+            <button class="answer">Creative Style System</button>
+        </div>
+        <div class="question" data-correct="3">
+            <p>3. Qual tag é usada para criar links em HTML?</p>
+            <button class="answer">&lt;img&gt;</button>
+            <button class="answer">&lt;div&gt;</button>
+            <button class="answer">&lt;p&gt;</button>
+            <button class="answer">&lt;a&gt;</button>
+        </div>
+        <div class="question" data-correct="1">
+            <p>4. Qual método é usado para acessar um elemento pelo ID no JavaScript?</p>
+            <button class="answer">getElementsByClassName</button>
+            <button class="answer">getElementById</button>
+            <button class="answer">querySelectorAll</button>
+            <button class="answer">getElementByTagName</button>
+        </div>
+        <div class="question" data-correct="2">
+            <p>5. Qual a linguagem usada para manipular o DOM?</p>
+            <button class="answer">PHP</button>
+            <button class="answer">HTML</button>
+            <button class="answer">JavaScript</button>
+            <button class="answer">Ruby</button>
+        </div>
+        <button id="finalize" class="hidden">Finalizar Quiz</button>
+    </div>
+
+    <script src="perguntas.js"></script>
+</body>
+</html>

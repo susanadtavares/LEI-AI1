@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <script src="resultado8.js"></script>
+    <style>
+        .container {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <label for="valor1">Valor 1:</label>
+    <input type="number" id="valor1" placeholder="Digite o primeiro valor"><br>
+    
+    <label for="valor2">Valor 2:</label>
+    <input type="number" id="valor2" placeholder="Digite o segundo valor">
+
+    <button onclick="calcularMultiplicacao()">Calcular Multiplicação</button>
+    <button onclick="calcularDivisao()">Calcular Divisão</button>
+
+    <p class="result">O Resultado é: <span id="resultado"></span></p>
+    <p id="error-message" class="error"></p>
+</div>
+
+
+</body>
+</html>
